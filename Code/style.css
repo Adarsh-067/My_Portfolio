@@ -5,17 +5,17 @@
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 #head{
-    width: auto;
+    position:absolute;
+    width: 91vw;
     height: 90px;
-    /* background-color: antiquewhite; */
     margin: 5px 60px;
     padding: 5px;
     display: flex;
     justify-content:space-between;
     align-items: center;
-    /* position: fixed; */
+    border-bottom: 2px solid black;
+    z-index: 1;
 }
-
 
 #nav{
     height: 60px;
@@ -35,10 +35,40 @@
 #nav li a{
     text-decoration: none;
 }
+
 #wrapper{
+    position: relative;
     width: auto;
     height: 100vh;
+    background-color: rgba(5, 4, 4, 0.673);
 }
+
+#page1{
+    position: relative;
+    top: 100px;
+    width: auto;
+    height:80vh;
+    border: 2px solid black;
+    margin: 0 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#left{
+    width: 50vw;
+    height: 55vh;
+    border: 2px solid black;
+    margin: 95px 15px;
+}
+
+#right{
+    width: 50vw;
+    height: 55vh;
+    border: 2px solid black;
+    margin: 95px 15px;
+}
+
 #foot{
     width: auto;
     height: 80px;
