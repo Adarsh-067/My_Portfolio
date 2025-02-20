@@ -5,17 +5,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
 
     <header id="head">
       <h1 style="margin: 25px 0;">My Portfolio</h1>
       <nav id="nav">
-        <li><a href="#">Home</a></li>
-        <li><a href="#">About</a></li>
-        <li><a href="#">Projects</a></li>
-        <li><a href="#">Contact</a></li>
-        <li><a href="#">Experience</a></li>
+        <li><a href="index.html" class="a">Home</a></li>
+        <li><a href="about.html" class="a">About</a></li>
+        <li><a href="#" class="a">Projects</a></li>
+        <li><a href="#" class="a">Skill</a></li>
+        <li><a href="#" class="a">Contact</a></li>
+        <!-- <li><a href="#" class="a">Experience</a></li> -->
       </nav>
     </header>
 
@@ -23,19 +26,44 @@
          <div id="wrapper">
             <div id="page1">
               <div id="left">
-                left
+                 <div>
+                  <h2>Hello,it's Me</h2>
+                  <h1>Adarsh Chaubey</h1>
+                  <h2>And I'm a <span id="span">java Developer</span></h2>
+                  <br>
+                  <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eius eum modi dolorum ipsam dolore nam totam nostrum fugiat natus, error Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                </div>
+
+                <br>
+                <div id="icons">
+                 <a href="https://www.linkedin.com"><i class="fa-brands fa-linkedin"></i></a>
+                 <a href="https://github.com/"><i class="fa-brands fa-github"></i></a>
+                 <a href="https://leetcode.com/u/Adarsh-99/"><i class="fa-solid fa-code"></i></a>
+                 <a href="#"><i class="fa-solid fa-envelope"></i></a>
+                </div>
+
+                <br>
+                <button id="btn">download CV</button>
               </div>
 
               <div id="right">
-                right
+                <div id="img_div"></div>
               </div>
+            </div>
+
+            <div id="page2">
+
+            </div>
+
+            <div id="page3">
+              
             </div>
          </div>
     </main>
 
-    <footer id="foot">
+    <!-- <footer id="foot">
       footer
-    </footer>
+    </footer> -->
     <script src="script.js"></script>
 </body>
 </html>
